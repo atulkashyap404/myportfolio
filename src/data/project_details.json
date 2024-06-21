@@ -4,21 +4,21 @@
         {
             "id": 1,
             "title": "Image-Gen",
-            "url": {},
+            "image": "/projects/imageg.jpg",
             "description": "Learn the basics of playing guitar with our comprehensive beginner's course."
             
         },
         {
             "id": 2,
             "title": "YouTube-Backend",
-            "url": {},
+            "image":  "/projects/imagey.jpg",
             "description": "Learn the basics of playing guitar with our comprehensive beginner's course."
             
         },
         {
             "id": 3,
             "title": "Profolio",
-            "url": {},
+            "image":  "/projects/imagep.jpg",
             "description": "Learn the basics of playing guitar with our comprehensive beginner's course."
         
         }

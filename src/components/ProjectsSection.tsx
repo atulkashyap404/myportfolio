@@ -7,7 +7,7 @@ import Link from "next/link";
 interface Projects {
   id: number;
   title: string;
-  url: string;
+  image: string;
   description: string;
 }
 
@@ -21,11 +21,11 @@ function ProjectsSection() {
           className="rounded-[22px] max-w-sm p- sm:p-10 bg-white dark:bg-zinc-900 "
         >
           <Image
-            src={project.url}
+            src= {project.image}
             alt="jordans"
             height="400"
             width="400"
-            className="object-contain"
+            className="object-contain rounded-2xl"
           />
           <p className="text-base sm:text-xl text-black mt-4 mb-2 dark:text-neutral-200">
             {project.title}
