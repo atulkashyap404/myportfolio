@@ -1,7 +1,7 @@
 'use client'
 import { ContainerScroll } from "./ui/container-scroll-animation";
 import Image from "next/image";
-import profilepic from "./me.jpg"
+import profilepic from "../../public/images/me.jpg";
 import { FlipWords } from "./ui/flip-words";
 
 function HeroSection() {
@@ -27,8 +27,9 @@ function HeroSection() {
           alt="Atul Kashyap"
           height={720}
           width={1400}
-          className="mx-auto rounded-2xl w-[40rem] h-full object-cover "
+          className="mx-auto rounded-2xl object-cover w-[40rem] h-[40rem]"
           draggable={false}
+          
         />
       </ContainerScroll>
     </div>
