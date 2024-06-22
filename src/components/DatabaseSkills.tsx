@@ -12,7 +12,7 @@ interface Language {
 function DatabaseSkills() {
   return (
     <div className="h-[50rem] w-full overflow-hidden dark:bg-black bg-white  dark:bg-grid-small-white/[0.2] bg-grid-small-black/[0.2] ">
-      <p className="flex justify-center items-center text-3xl text-neutral text-bold pt-8">Databases</p>
+      <p className="flex justify-center items-center text-3xl text-neutral text-bold pt-8 text-black">Databases</p>
       <div className=" max-w-7xl mx-auto px-4">
       <HoverEffect items={language} />
     </div>

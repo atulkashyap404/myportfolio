@@ -16,7 +16,7 @@ function ProjectsSection() {
   return (
     <div className="dark:bg-black bg-white  dark:bg-grid-small-white/[0.2] bg-grid-small-black/[0.2]">
       <div>
-        <h1 className="flex justify-center items-center mb-16 p-4 text-7xl leading-8 font-extrabold tracking-tight">
+        <h1 className="flex justify-center items-center mb-16 p-4 text-7xl leading-8 font-extrabold tracking-tight text-black">
           Projects
         </h1>
       </div>
