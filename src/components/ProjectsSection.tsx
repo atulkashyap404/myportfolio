@@ -15,11 +15,11 @@ interface Projects {
 function ProjectsSection() {
   return (
     <div className="dark:bg-black bg-white  dark:bg-grid-small-white/[0.2] bg-grid-small-black/[0.2]">
-      <div>
-        <h1 className="flex justify-center items-center mb-16 p-4 text-7xl leading-8 font-extrabold tracking-tight text-black">
+      {/* <div> */}
+        <h1 className="flex justify-center items-center mb-16 p-4 sm:text-7xl text-7xl leading-8 font-extrabold tracking-tight text-black">
           Projects
         </h1>
-      </div>
+      {/* </div> */}
       <div className="flex flex-row justify-center items-center">
       <div className="grid grid-col-1 sm:grid-cols-2 lg:grid-cols-3 justify-center gap-8 p-4">
         {projectdata.project.map((project: Projects) => (
