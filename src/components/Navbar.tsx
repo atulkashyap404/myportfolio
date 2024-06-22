@@ -2,6 +2,7 @@
 import React, { useState } from "react";
 import { HoveredLink, Menu, MenuItem, ProductItem } from "./ui/navbar-menu";
 import { cn } from "@/utils/cn";
+import Link from "next/link";
 
 
 function Navbar({ className }: { className?: string }) {
@@ -17,10 +18,12 @@ function Navbar({ className }: { className?: string }) {
             
             </MenuItem>
 
+             <Link href={"/hireme"}> 
             <MenuItem setActive={setActive} active={active} item="Hire me">
             
             
             </MenuItem>
+            </Link>
 
         </Menu>
     </div>
