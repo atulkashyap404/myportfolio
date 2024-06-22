@@ -5,7 +5,7 @@
             "id": 1,
             "title": "Image-Gen",
             "image": "/projects/imageg.jpg",
-            "description": "Learn the basics of playing guitar with our comprehensive beginner's course.",
+            "description": "",
             "link":"https://github.com/atulkashyap404/Image-Gen"
             
         },
@@ -13,7 +13,7 @@
             "id": 2,
             "title": "YouTube-Backend",
             "image":  "/projects/imagey.jpg",
-            "description": "Learn the basics of playing guitar with our comprehensive beginner's course.",
+            "description": "",
             "link":"https://github.com/atulkashyap404/YouTube-backend-Production-level"
             
         },
@@ -21,7 +21,7 @@
             "id": 3,
             "title": "Profolio",
             "image":  "/projects/imagep.jpg",
-            "description": "Learn the basics of playing guitar with our comprehensive beginner's course.",
+            "description": "",
             "link":"https://github.com/atulkashyap404/myportfolio"
         
         }
