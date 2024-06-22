@@ -1,0 +1,47 @@
+{
+    "Programming": [
+
+        {
+            "id": 1,
+            "name": "C",
+            "decription": "C is a powerful, high-performance programming language widely used for system software and application development. It provides low-level memory access and a simple, efficient syntax that has influenced many other languages."
+        },
+        {
+            "id": 2,
+            "name": "C++",
+            "decription": "C++ is a versatile, high-performance programming language widely used for system/software development and game programming. It supports both procedural and object-oriented programming, making it a powerful tool for complex applications."
+        },
+        {
+            "id": 3,
+            "name": "Python",
+            "decription": "Python is a versatile, high-level programming language known for its readability and ease of use. It supports multiple programming paradigms, including procedural, object-oriented, and functional programming."
+        },
+        {
+            "id": 4,
+            "name": "JavaScript",
+            "decription": "JavaScript is a versatile, high-level programming language primarily used to create interactive effects within web browsers. It is an essential technology alongside HTML and CSS, enabling dynamic content and enhancing user experience on websites."
+        },
+        {
+            "id": 5,
+            "name": "TypeScript",
+            "decription": "TypeScript is a strongly typed superset of JavaScript that compiles to plain JavaScript, enhancing development with static typing and modern ECMAScript features. It improves code maintainability and helps catch errors early through its robust type-checking system."
+        },
+        {
+            "id": 6,
+            "name": "CSS",
+            "decription": "CSS (Cascading Style Sheets) is a language used to describe the presentation of a document written in HTML or XML, including layout, colors, and fonts. It enables the separation of content from design, making web pages more visually appealing and easier to maintain."
+        },
+        {
+            "id": 7,
+            "name": "HTML",
+            "decription": "HTML (HyperText Markup Language) is the standard language used to create and design webpages. It structures content on the web by defining elements such as headings, paragraphs, links, and images."
+        },
+        {
+            "id": 8,
+            "name": "Go",
+            "decription": "Go is a statically typed, compiled programming language designed by Google, known for its simplicity and efficiency in building scalable, concurrent applications. It emphasizes clean syntax, fast compilation, and ease of use for system-level programming."
+        }
+        
+        
+    ]
+}
