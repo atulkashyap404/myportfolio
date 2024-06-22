@@ -12,7 +12,7 @@ function HeroSection() {
         titleComponent={
           <>
           
-            <h1 className="text-4xl md:text-[6rem] font-bold mb-4 leading-none">
+            <h1 className="text-xl sm:text-7xl md:text-[6rem] font-bold mb-4 leading-none">
               Hi, I&apos;m Atul Kashyap<br />
               <p className="text-slate-500 text-xl font-normal">I&apos;m passionate Fullstack Developer with an interest in</p>
               <span className="text-4xl font-semibold text-black dark:text-white">
