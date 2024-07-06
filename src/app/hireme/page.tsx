@@ -35,22 +35,22 @@ function Page() {
         <TypewriterEffectSmooth words={words} />
         <div className="flex flex-col md:flex-row space-y-4 md:space-y-0 space-x-0 md:space-x-4">
           <Link href={"https://wa.me/qr/TEVLY3AABYVWO1"}>
-          <button className="rounded-xl bg-white  border border-black  text-sm shadow-[inset_0_0_0_2px_#616467] text-black px-12 py-4  tracking-widest bg-transparent hover:bg-[#616467] hover:text-white dark:text-neutral-200 transition duration-200">
+          <button className="rounded-xl bg-white  border border-black  text-sm shadow-[inset_0_0_0_2px_#616467] text-black px-12 py-4  tracking-widest bg-transparent hover:bg-[#616467] hover:text-white dark:text-neutral-200 transition duration-200 flex-1 w-full md:w-auto">
             Chat with me
           </button>
           </Link>
           <Link href={"https://github.com/atulkashyap404"}>
-          <button className="rounded-xl bg-white  border border-black  text-sm shadow-[inset_0_0_0_2px_#616467] text-black px-12 py-4  tracking-widest bg-transparent hover:bg-[#616467] hover:text-white dark:text-neutral-200 transition duration-200">
+          <button className="rounded-xl bg-white  border border-black  text-sm shadow-[inset_0_0_0_2px_#616467] text-black px-12 py-4  tracking-widest bg-transparent hover:bg-[#616467] hover:text-white dark:text-neutral-200 transition duration-200 flex-1 w-full md:w-auto">
             Github
           </button>
           </Link>
           <Link href={"https://www.linkedin.com/in/atul-kumar404/"}>
-          <button className="rounded-xl bg-white  border border-black  text-sm shadow-[inset_0_0_0_2px_#616467] text-black px-12 py-4  tracking-widest bg-transparent hover:bg-[#616467] hover:text-white dark:text-neutral-200 transition duration-200">
+          <button className="rounded-xl bg-white  border border-black  text-sm shadow-[inset_0_0_0_2px_#616467] text-black px-12 py-4  tracking-widest bg-transparent hover:bg-[#616467] hover:text-white dark:text-neutral-200 transition duration-200 flex-1 w-full md:w-auto">
             LinkedIn
           </button>
           </Link>
           <Link href={"https://x.com/AtulKumarManjh5"}>
-          <button className="rounded-xl bg-white  border border-black  text-sm shadow-[inset_0_0_0_2px_#616467] text-black px-12 py-4  tracking-widest bg-transparent hover:bg-[#616467] hover:text-white dark:text-neutral-200 transition duration-200">
+          <button className="rounded-xl bg-white  border border-black  text-sm shadow-[inset_0_0_0_2px_#616467] text-black px-12 py-4  tracking-widest bg-transparent hover:bg-[#616467] hover:text-white dark:text-neutral-200 transition duration-200 flex-1 w-full md:w-auto">
             X
           </button>
           </Link>
