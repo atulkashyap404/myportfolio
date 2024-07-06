@@ -49,6 +49,11 @@ function Page() {
             LinkedIn
           </button>
           </Link>
+          <Link href={"https://x.com/AtulKumarManjh5"}>
+          <button className="rounded-xl bg-white  border border-black  text-sm shadow-[inset_0_0_0_2px_#616467] text-black px-12 py-4  tracking-widest bg-transparent hover:bg-[#616467] hover:text-white dark:text-neutral-200 transition duration-200">
+            X
+          </button>
+          </Link>
           
         </div>
       </div>
