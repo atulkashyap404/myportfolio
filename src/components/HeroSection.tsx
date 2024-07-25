@@ -5,7 +5,7 @@ import profilepic from "../../public/images/me.jpg";
 import { FlipWords } from "./ui/flip-words";
 
 function HeroSection() {
-  const words = ["Frontend", "Backend", "Python-Django", "MERN-Stack", "React-Native", "UI/UX-Design", "Machine learning","Natural language processing"]
+  const words = ["Frontend", "Backend", "Python-Django", "MERN-Stack", "React-Native", "UI/UX-Design", "Machine-learning","Natural- language-processing"]
   return (
     <div className="flex flex-col justify-center h-[90rem] w-full overflow-hidden dark:bg-black bg-white  dark:bg-grid-small-white/[0.2] bg-grid-small-black/[0.2] relative">
       <ContainerScroll
