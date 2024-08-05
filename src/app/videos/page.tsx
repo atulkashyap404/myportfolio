@@ -1,5 +1,5 @@
 "use client";
-import MuxPlayer from "@mux/mux-player-react";
+
 
 function Page() {
   return (
@@ -9,39 +9,16 @@ function Page() {
           My Video Edits
         </h1>
         <div className="grid grid-cols-1 lg:grid-cols-2 justify-center gap-8 p-4">
-          <MuxPlayer
-            streamType="on-demand"
-            playbackId="4Makp6qIFB92KEdROGwY9WrMeO95Vq9q01ood8SPRyvY"
-            metadataVideoTitle="Placeholder (optional)"
-            metadataViewerUserId="Placeholder (optional)"
-            primaryColor="#FFFFFF"
-            secondaryColor="#000000"
-          />
+        
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/D8nmX-LsfLU?si=mhHP3Tb1Zehley-o" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
 
-          <MuxPlayer
-            streamType="on-demand"
-            playbackId="s01o00sLcvxv6022e5HSxz3pr00A7aYLjXplvrzdaEVDv2o"
-            metadataVideoTitle="Placeholder (optional)"
-            metadataViewerUserId="Placeholder (optional)"
-            primaryColor="#FFFFFF"
-            secondaryColor="#000000"
-          />
-          <MuxPlayer
-            streamType="on-demand"
-            playbackId="s01o00sLcvxv6022e5HSxz3pr00A7aYLjXplvrzdaEVDv2o"
-            metadataVideoTitle="Placeholder (optional)"
-            metadataViewerUserId="Placeholder (optional)"
-            primaryColor="#FFFFFF"
-            secondaryColor="#000000"
-          />
-          <MuxPlayer
-            streamType="on-demand"
-            playbackId="s01o00sLcvxv6022e5HSxz3pr00A7aYLjXplvrzdaEVDv2o"
-            metadataVideoTitle="Placeholder (optional)"
-            metadataViewerUserId="Placeholder (optional)"
-            primaryColor="#FFFFFF"
-            secondaryColor="#000000"
-          />
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/nZgBjx69-Uc?si=wfQ4rfH9M5qqZ897" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
+
+
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/gOTHEGpM_Cs?si=0-89D2oO-ZKvzgvW" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
+
+
+          
         </div>
       </div>
     </div>
