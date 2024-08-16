@@ -23,12 +23,18 @@ function Navbar({ className }: { className?: string }) {
             </Link>
 
             <Link href={"https://www.youtube.com/channel/UCuLkhlfRFgd854Um-MUdK4w"}> 
-            <MenuItem setActive={setActive} active={active} item="My Channel">
+            <MenuItem setActive={setActive} active={active} item="YT">
             
             </MenuItem>
             </Link>
 
-             <Link href={"/hireme"}> 
+            <Link href={"/newcanva"}> 
+            <MenuItem setActive={setActive} active={active} item="NewCanva">
+            
+            </MenuItem>
+            </Link>
+
+            <Link href={"/hireme"}> 
             <MenuItem setActive={setActive} active={active} item="Hire me">
             
             </MenuItem>
