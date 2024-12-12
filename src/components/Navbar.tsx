@@ -28,11 +28,11 @@ function Navbar({ className }: { className?: string }) {
             </MenuItem>
             </Link>
 
-            <Link href={"/newcanva"}> 
+            {/* <Link href={"/newcanva"}> 
             <MenuItem setActive={setActive} active={active} item="NewCanva">
             
             </MenuItem>
-            </Link>
+            </Link> */}
 
             <Link href={"/hireme"}> 
             <MenuItem setActive={setActive} active={active} item="Hire me">
