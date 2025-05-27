@@ -1,7 +1,7 @@
 'use client'
 import React, { useState } from "react";
 import { HoveredLink, Menu, MenuItem, ProductItem } from "./ui/navbar-menu";
-import { cn } from "@/utils/cn";
+import { cn } from "@/lib/utils";
 import Link from "next/link";
 
 
@@ -16,17 +16,22 @@ function Navbar({ className }: { className?: string }) {
             </MenuItem>
             </Link>
 
-            <Link href={"/videos"}> 
-            <MenuItem setActive={setActive} active={active} item="Videos">
+            <Link href={"/saas"}> 
+            <MenuItem setActive={setActive} active={active} item="SaaS Templates">
             
             </MenuItem>
             </Link>
-
+            {/* <Link href={"/videos"}> 
+            <MenuItem setActive={setActive} active={active} item="Videos">
+            
+            </MenuItem>
+            </Link> */}
+{/* 
             <Link href={"https://www.youtube.com/channel/UCuLkhlfRFgd854Um-MUdK4w"}> 
             <MenuItem setActive={setActive} active={active} item="YT">
             
             </MenuItem>
-            </Link>
+            </Link> */}
 
             {/* <Link href={"/newcanva"}> 
             <MenuItem setActive={setActive} active={active} item="NewCanva">
